@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(e,...o){console.log(`[xbox-cloud-server-selector] ${e}`,...o)}("Bridge alive"),chrome.storage.local.get().then((e=>{window.postMessage({from:"xbox-cloud-server-selector",settings:e})}))})();
